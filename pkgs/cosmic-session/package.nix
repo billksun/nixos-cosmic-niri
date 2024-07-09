@@ -17,7 +17,7 @@ rustPlatform.buildRustPackage {
     owner = "billksun";
     repo = "cosmic-niri-session";
     rev = "7b161069c5d85f76ed1398a4f850dfe5d4800112";
-    sha256 = "09xh3zg1dhiian0yczzwlbrzwlnjyv07l0ngb18qx0qxl03h8kc5";
+    sha256 = "1xz13vzgs4bkngzp6kxgxk7v563sz1y8dpq1lf4lfl4f9zf67l10";
   };
 
   cargoLock = {
