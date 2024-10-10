@@ -13,13 +13,13 @@
 
 rustPlatform.buildRustPackage {
   pname = "pop-launcher";
-  version = "1.2.1-unstable-2024-08-14";
+  version = "1.2.1-unstable-2024-10-01";
 
   src = fetchFromGitHub {
     owner = "pop-os";
     repo = "launcher";
-    rev = "6a1b8b9ad0563693136872809dac2a30fb7d633f";
-    sha256 = "sha256-kZs9h2Q80/xPyRFTNiEPQrywHBGHQWDplBiYuZbyiS4=";
+    rev = "476a8fb44564b7075adf2c3b74bad758f6582747";
+    sha256 = "sha256-fiVvJwESe7/Az3nXPzrTalzg2zvhu2p6tWJQzXjJUDE=";
   };
 
   cargoLock = {
