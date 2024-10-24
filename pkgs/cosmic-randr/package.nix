@@ -11,19 +11,19 @@
 
 rustPlatform.buildRustPackage {
   pname = "cosmic-randr";
-  version = "1.0.0-alpha.2-unstable-2024-07-31";
+  version = "1.0.0-alpha.2-unstable-2024-10-24";
 
   src = fetchFromGitHub {
     owner = "pop-os";
     repo = "cosmic-randr";
-    rev = "71fabbb382fa8cf750f50fb77c4ba014bff80056";
-    hash = "sha256-g9zoqjPHRv6Tw/Xn8VtFS3H/66tfHSl/DR2lH3Z2ysA=";
+    rev = "8d0938029f223016fde11aef4c5233ddbfdb2796";
+    hash = "sha256-xakK4APhlNKuWbCMP6nJXLyOaQ0hFCvzOht3P8CkV/0=";
   };
 
   cargoLock = {
     lockFile = ./Cargo.lock;
     outputHashes = {
-      "cosmic-protocols-0.1.0" = "sha256-zWuvZrg39REZpviQPfLNyfmWBzMS7A7IBUTi8ZRhxXs=";
+      "cosmic-protocols-0.1.0" = "sha256-6XM6kcM2CEGAziCkal4uO0EL1nEWOKb3rFs7hFh6r7Y=";
     };
   };
 
