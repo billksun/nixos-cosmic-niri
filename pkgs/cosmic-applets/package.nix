@@ -18,33 +18,32 @@
 
 rustPlatform.buildRustPackage {
   pname = "cosmic-applets";
-  version = "1.0.0-alpha.2-unstable-2024-10-21";
+  version = "1.0.0-alpha.4-unstable-2024-12-04";
 
   src = fetchFromGitHub {
     owner = "pop-os";
     repo = "cosmic-applets";
-    rev = "11faa567f32e255444682b011d3196b15addeb8d";
-    hash = "sha256-q/CrK3sb3hkxCEM5z+Jc8HiWfzQWkg+CLq16EEKNT5o=";
+    rev = "104a608cf1d55b5b8696ada431e77b96602242aa";
+    hash = "sha256-77sCLHN4U+9WgX5h0skrkEiIy5Nl2FwGNuuY3O7X7D4=";
   };
 
   cargoLock = {
     lockFile = ./Cargo.lock;
     outputHashes = {
-      "accesskit-0.12.2" = "sha256-1UwgRyUe0PQrZrpS7574oNLi13fg5HpgILtZGW6JNtQ=";
+      "accesskit-0.16.0" = "sha256-yeBzocXxuvHmuPGMRebbsYSKSvN+8sUsmaSKlQDpW4w=";
       "atomicwrites-0.4.2" = "sha256-QZSuGPrJXh+svMeFWqAXoqZQxLq/WfIiamqvjJNVhxA=";
-      "clipboard_macos-0.1.0" = "sha256-cG5vnkiyDlQnbEfV2sPbmBYKv1hd3pjJrymfZb8ziKk=";
+      "clipboard_macos-0.1.0" = "sha256-tovB4fjPVVRY8LKn5albMzskFQ+1W5ul4jT5RXx9gKE=";
       "cosmic-client-toolkit-0.1.0" = "sha256-1XtyEvednEMN4MApxTQid4eed19dEN5ZBDt/XRjuda0=";
       "cosmic-comp-config-0.1.0" = "sha256-uUpRd8bR2TyD7Y1lpKmJTaTNv9yNsZVnr0oWDQgHD/0=";
-      "cosmic-config-0.1.0" = "sha256-FRpZRiT8RJuvD0OBnkDLYdd72WDZEktnAp4YgvKQ0AA=";
-      "cosmic-dbus-networkmanager-0.1.0" = "sha256-mcunAOrjOgt6Y8me4fjpF3fZcK4jQDIpLYlPKuarQLQ=";
-      "cosmic-notifications-config-0.1.0" = "sha256-tCizZePze94tbJbR91N9rfUhrLFTAMW2oL9ByKOeDAU=";
-      "cosmic-panel-config-0.1.0" = "sha256-1gOvJeA+K2F37RJH75dsMxpoRSF6ayjtw3UvKVl2gB4=";
-      "cosmic-settings-daemon-0.1.0" = "sha256-mklNPKVMO6iFrxki2DwiL5K78KiWpGxksisYldaASIE=";
-      "cosmic-settings-subscriptions-0.1.0" = "sha256-Mmyx3q18BP3j5sUeyyNytmBEBzdJWTmy6AgAGCFe90c=";
-      "cosmic-text-0.12.1" = "sha256-u2Tw+XhpIKeFg8Wgru/sjGw6GUZ2m50ZDmRBJ1IM66w=";
-      "cosmic-time-0.4.0" = "sha256-Q11IcKzuMBc3CIlpZeCMML6OagaKwmGqQ0IMoDso+Ig=";
-      "d3d12-0.19.0" = "sha256-usrxQXWLGJDjmIdw1LBXtBvX+CchZDvE8fHC0LjvhD4=";
-      "glyphon-0.5.0" = "sha256-j1HrbEpUBqazWqNfJhpyjWuxYAxkvbXzRKeSouUoPWg=";
+      "cosmic-config-0.1.0" = "sha256-FCfCIsWrZlvPgQXMOEzlTIqZvrT82S43J4FBxu7Szjg=";
+      "cosmic-dbus-a11y-0.1.0" = "sha256-TRXYsnodKjKacc2eVndviEPpma/NNOWstG+ipGcQ0s4=";
+      "cosmic-notifications-config-0.1.0" = "sha256-bc2CqdAEnYXbLofKLO3g9DsK8OzolK2pwhaIDaXKjSY=";
+      "cosmic-panel-config-0.1.0" = "sha256-vFYt9Jn61p74jcNzExYOsZHxh9T+0QG7b0yHiAnF4HY=";
+      "cosmic-settings-subscriptions-0.1.0" = "sha256-fCWGXR+Ky5W/D46OvZX7VyrmOjlxliZCHgsvPS6MgXY=";
+      "cosmic-text-0.12.1" = "sha256-nCw3RNIHINXH4+m9wKB+0CeoXSVKKxP+ylaZhfp8u+o=";
+      "cosmic-time-0.4.0" = "sha256-egp4PxicVQ0I8nQiGfula3FGDs/o3JLvYDqOxanDqTU=";
+      "dpi-0.1.1" = "sha256-whi05/2vc3s5eAJTZ9TzVfGQ/EnfPr0S4PZZmbiYio0=";
+      "iced_glyphon-0.6.0" = "sha256-u1vnsOjP8npQ57NNSikotuHxpi4Mp/rV9038vAgCsfQ=";
       "smithay-clipboard-0.8.0" = "sha256-4InFXm0ahrqFrtNLeqIuE3yeOpxKZJZx+Bc0yQDtv34=";
       "softbuffer-0.4.1" = "sha256-a0bUFz6O8CWRweNt/OxTvflnPYwO5nm6vsyc/WcXyNg=";
       "taffy-0.3.11" = "sha256-SCx9GEIJjWdoNVyq+RZAGn0N71qraKZxf9ZWhvyzLaI=";
