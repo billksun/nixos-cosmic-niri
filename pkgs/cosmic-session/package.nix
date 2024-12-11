@@ -12,20 +12,21 @@
 
 rustPlatform.buildRustPackage {
   pname = "cosmic-session";
-  version = "1.0.0-alpha.2-unstable-2024-10-17";
+  version = "1.0.0-alpha.4-unstable-2024-12-06";
 
   src = fetchFromGitHub {
     owner = "pop-os";
     repo = "cosmic-session";
-    rev = "c3a35f323b88a760e17da0637a7df24e6bd949e0";
-    hash = "sha256-JCWSysCtKkNn68kvFo9EyJBWl7vD+UiQcxXBTAFr0jk=";
+    rev = "78316ba39c53fccad448c7a2a48fd898b3ab9d86";
+    hash = "sha256-tudZzhXWrf1fIfR7A8THYTUKkchAtmcDAV365p9Qo6c=";
   };
 
   cargoLock = {
     lockFile = ./Cargo.lock;
     outputHashes = {
-      "cosmic-notifications-util-0.1.0" = "sha256-GmTT7SFBqReBMe4GcNSym1YhsKtFQ/0hrDcwUqXkaBw=";
-      "launch-pad-0.1.0" = "sha256-c+uawTQlg5SW8x7DOBG2Idv/AfIaCFNtLQLUz8ifT2I=";
+      "cosmic-dbus-a11y-0.1.0" = "sha256-TRXYsnodKjKacc2eVndviEPpma/NNOWstG+ipGcQ0s4=";
+      "cosmic-notifications-util-0.1.0" = "sha256-yB8XGr/Glj6iUMp4Rj4CEsHpWQgLeF5h/KyIDiqfmfI=";
+      "launch-pad-0.1.0" = "sha256-TOnVCF1XWwfi3g/Z0LUJ/uwxSd1NBSRlArBnlXeeMTQ=";
     };
   };
 
